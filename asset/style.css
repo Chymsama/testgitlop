@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#header {
+    position: relative;
+    background-color: orange;
+}
+
+#header .menu {
+    display: inline-block;
+}
+
+#header .logo {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+#header .menu li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+#header .login-box {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+#header .login-box li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 0px 20px;
+}
+
+#header .login-box a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+#slider h1 {
+    text-align: center;
+}
+
+#slider .major-content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+#slider .major-item {
+    /* margin: 20px 10%; */
+    border-radius: 10px;
+
+}
+
+#slider .major-item h2 {
+    margin: 0;
+    padding: 15px;
+}
+
+
+#slider .major-item ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.major-item h2 {
+    font-size: 22px;
+    color: #fff;
+    background-color: orange;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* padding: 6px; */
+}
+
+ul.sub-list {
+    padding: 0;
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul.sub-list li {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-list li .description {
+    font-weight: normal;
+}
+
+#footer {
+    background-color: orange;
+    margin-top: 5%;
+}
+
+#footer .footer-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-2 {
+    justify-content: center;
+    align-items: center;
+}
